@@ -1,9 +1,9 @@
 # Azure DevOps
 https://platform.qa.com/learning-paths/az-400-exam-prep-microsoft-azure-devops-solutions-1-1368/
 
-### Introduction
+## Introduction
 
-Azure DevOps is a suite of services that allow for collaboration on software development, following DevOps principles. 
+**Azure DevOps** is a suite of services that allow for collaboration on software development, following DevOps principles. 
 The main services Azure DevOps includes are:
 
 1. **Azure Repos** for hosting Git repositories for source control of your code
@@ -24,8 +24,9 @@ was built to support that level of customization and you will see several places
 with tools outside of Azure DevOps. In this lab, you will not need to worry about any limitations.
 
 
-### Service breakdown
+## Service breakdown
 
+### Azure Repos
 **Azure Repos** are Git-based repositories in the Azure DevOps tool suite. You can have an unlimited number of private 
 Git repos for free. On top of the Git repository is an array of features to integrate repos with workflows, making it 
 easier to manage your code and related processes. Some of the features include pull request based workflows, branch 
@@ -34,6 +35,7 @@ your favorite tools that support Git with repositories in Azure Repos.
 
 ![2. Repos.png](2.%20Repos.png)
 
+### Azure Boards
 **Azure Boards** provide tools for planning, tracking, and collaborating using agile tools. Boards support several 
 processes including Scrum and Agile. Each process can plan and prioritize work in backlogs, keep a limit on work in 
 progress on kanban boards, organize and track work in sprints, and use analytics to optimize your agile processes. 
@@ -43,6 +45,7 @@ are a variety of views for work items. Each provides you with an optimized view 
 
 ![3. Boards.png](3.%20Boards.png)
 
+### Azure Pipelines
 **Azure Pipelines** is the Azure DevOps service for continuous integration and continuous deployment. At a high level, 
 there are two distinct types of pipelines in Azure Pipelines, which can be confusing if not made aware of early on. 
 There are build pipelines, sometimes referred to simply as pipelines in the UI, and release pipelines. The build 
@@ -56,6 +59,7 @@ in a YAML file that is included in the repo.
 
 ![4. Pipelines.png](4.%20Pipelines.png)
 
+### Azure Test Plans
 **Azure Test Plans** is a service used to plan manual testing of your code to help improve the overall code quality. 
 You are also able to do user acceptance testing (UAT) to verify the value delivered to the customer. Test Plans service 
 is not included with the basic plan of Azure DevOps (although you can get 30 days free).  
@@ -63,6 +67,7 @@ is not included with the basic plan of Azure DevOps (although you can get 30 day
 
 ![5. Test Plans.png](5.%20Test%20Plans.png)
 
+### Azure Artifacts
 **Azure Artifacts** give devs the opportunity to use packages from various public directories. You can even publish and 
 share different types of packages. There are various supported packages such as:
 - NuGet
@@ -73,7 +78,7 @@ share different types of packages. There are various supported packages such as:
 
 ![6. Artifacts.png](6.%20Artifacts.png)
 
-### Summary
+## Summary
 
 In this lab step, you learned about the various services that Azure DevOps provides in its suite to help users 
 collaborate on software development, following DevOps principles.
